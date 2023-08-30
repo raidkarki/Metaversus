@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'next',
   ],
   rules: {
     'react/no-unescaped-entities': 0,
