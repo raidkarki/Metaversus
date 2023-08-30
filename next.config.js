@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: false,
+    appDir: true,
   },
-  extends: [
-    //...
-    'plugin:@next/next/recommended',
-  ],
+ 
   
 };
 
