@@ -10,14 +10,14 @@ const InsightCard = ({ index, imgUrl, title, subtitle }) => (
     initial="hidden"
     whileInView="show"
     viewport={{ once: 'false', amount: 0.25 }}
-    className="flex flex-row justify-between gap-5 "
+    className="flex md:flex-row flex-col group content-center justify-center  md:justify-between gap-5 "
   >
-    <img src={imgUrl} alt={title} className=" w-[270px] h-[250px] rounded-[24px]  object-cover" />
+    <img src={imgUrl} alt={title} className=" w-[270px] h-[250px] rounded-[24px] mx-auto  object-cover" />
 
-    <div className={`w-full flex justify-between ${styles.flexCenter} `}>
-      <div className="flex-1 md:ml-[62px]  flex  flex-col max-w-[650px]">
+    <div className={`w-full  flex justify-between ${styles.flexCenter} `}>
+      <div className="flex-1 group:order-1 md:ml-[62px]  flex  flex-col max-w-[650px]">
         <h4 className="font-normal lg:text-[42px] text-[26px]  text-white">{title}</h4>
-        <p className="mt-[16px]  font-normal lg:text-[14px] text-[14px] text-secondary-white ">
+        <p className="mt-[16px]   font-normal lg:text-[14px] text-[14px] text-secondary-white ">
           {subtitle}
         </p>
       </div>

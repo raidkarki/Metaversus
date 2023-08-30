@@ -14,7 +14,7 @@ const Insights = () => (
       whileInView="show"
       initial="hidden"
       viewport={{ once: 'false', amount: 0.25 }}
-      className="flex flex-col gap-4 mt-[60px] "
+      className="flex flex-col justify-center justify-items-center content-center  gap-4 mt-[60px] "
 
     >
       {
