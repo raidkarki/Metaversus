@@ -12,7 +12,7 @@ const InsightCard = ({ index, imgUrl, title, subtitle }) => (
     viewport={{ once: 'false', amount: 0.25 }}
     className="flex flex-row justify-between gap-5 "
   >
-    <img src={imgUrl} alt={title} className="w-full w-[270px] h-[250px] rounded-[24px] h-full object-cover" />
+    <img src={imgUrl} alt={title} className=" w-[270px] h-[250px] rounded-[24px]  object-cover" />
 
     <div className={`w-full flex justify-between ${styles.flexCenter} `}>
       <div className="flex-1 md:ml-[62px]  flex  flex-col max-w-[650px]">

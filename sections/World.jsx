@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import { TitleText, TypingText } from '../components';
+import Image from 'next/image';
+
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -26,7 +28,7 @@ const World = () => (
           <img src="people-02.png" alt="people" className="w-full h-full" />
         </div>
         <div className="absolute bottom-[50%] right-[50%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <image src="people-03.png" alt="people" className="w-full h-full" />
+          <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
 
       </motion.div>

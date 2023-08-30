@@ -38,7 +38,7 @@ const Feedback = () => (
         <motion.img variants={zoomIn(0.4, 1)} src="stamp.png" alt="stamp" className="lg:block absolute  w-[140px] h-[140px] z-10 lg:top-5  lg:-right-[30%] -bottom-[30%] " />
 
       </motion.div>
-      <motion.div variants={staggerContainer} initial="hidden" whileHover="show">
+      <motion.div  variants={fadeIn('left', 'tween', 0.2, 1)} >
         <img src="planet-09.png" className="rounded-[34px] w-full h-auto lg:h-[610px] object-cover " />
       </motion.div>
 
